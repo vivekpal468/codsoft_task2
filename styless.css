@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+   padding: 20px;
+   padding-right: 40px;
+   background-color: rgb(179, 177, 177);
+   width: 100%;
+   height: 75px;
+
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#logo{
+    font-size: 1.8rem;
+    color: rgb(54, 52, 52);
+}
+#items{
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    font-size: 1.5rem;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.contentbox{
+    padding-left: 50%;
+    padding-top:100px ;
+    width: 100%;
+    height: 500px;
+    background-image: url(bgimage.avif);
+}
+.content h1{
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.aboutme h1{
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.aboutlist{
+    display: flex;
+    gap: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+
+}
+li{
+    list-style-type: none;
+}
+.projectsection h1{
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.projectlist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectbox{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+}
+.projectbox img{
+    width: 347px;
+    height: 247px;
+}
+button{
+    background-color: rgb(60, 119, 109);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.contactsection h1{
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-top: 75px;
+}
+.contactsection form{
+    font-size: 25px;
+    padding-left: 20px;
+}
+button:hover{
+    color: azure !important;
+}
